@@ -1,10 +1,14 @@
-import Vue from "vue";
-import Vuex from "vuex";
+import { createStore } from "vuex"
+import createPersistedState from "vuex-persistedstate"
 
-Vue.use(Vuex);
+const persistedState = createPersistedState({
+	key: 'felted_creatures'
+})
 
-const store = new Vuex.Store({
-  modules: {}
+export default createStore({
+	state: {},
+	mutations: {},
+	actions: {},
+	modules: {},
+	plugins: [persistedState]
 });
-
-export default store;

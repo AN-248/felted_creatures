@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfelted_creatures"]=self["webpackChunkfelted_creatures"]||[]).push([[587],{8587:function(e,r,n){n.r(r),n.d(r,{default:function(){return f}});var t=n(3396);function u(e,r,n,u,a,c){return(0,t.wg)(),(0,t.iD)("p",null," Hello! ")}var a={name:"Home"},c=n(89);const l=(0,c.Z)(a,[["render",u]]);var f=l}}]);
+//# sourceMappingURL=587.04c2ec3c.js.map
