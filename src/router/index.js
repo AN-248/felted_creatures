@@ -12,10 +12,30 @@ const routes= [
     component: () => import('../views/New.vue')
   },
   {
-    path: '/felt',
-    name: 'felt',
-    component: () => import('../views/Felt.vue')
-  }
+    path: '/felts',
+    name: 'felts',
+    component: () => import('../views/Felts.vue')
+  },
+  {
+    path: '/needles',
+    name: 'needles',
+    component: () => import('../views/Needles.vue')
+  },
+  {
+    path: '/accessories',
+    name: 'accessories',
+    component: () => import('../views/Accessories.vue')
+  },
+  {
+    path: '/name',
+    name: 'name',
+    component: () => import('../views/Name.vue')
+  },
+  {
+    path: '/creatures',
+    name: 'creatures',
+    component: () => import('../views/Creatures.vue')
+  },
 ]
 
 const router = createRouter({

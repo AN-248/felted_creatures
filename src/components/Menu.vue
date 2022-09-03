@@ -1,7 +1,10 @@
 <template>
+    
 </template>
 <script>
 export default {
-    name: 'Felt',
+  name: 'Menu',
+  props: {
+  }
 }
 </script>
