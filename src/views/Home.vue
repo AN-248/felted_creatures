@@ -1,7 +1,7 @@
 <template>
-    <p>
-        Hello!
-    </p>
+    <div>
+        <Menu />
+    </div>
 </template>
 
 <script>
